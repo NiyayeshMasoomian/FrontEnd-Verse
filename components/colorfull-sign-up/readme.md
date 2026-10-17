@@ -1,4 +1,4 @@
-# Auth Forms (Sign-up-form)
+# Auth Forms ( Colorfull Sign up Form)
 
 A collection of authentication-related UI examples built with HTML and CSS.
 
