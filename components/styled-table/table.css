@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1c2132;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+}
+.table {
+  border: 1px solid #1c2132;
+  width: 750px;
+}
+.table thead th,
+.table tbody td {
+  padding: 15px;
+}
+.table thead th {
+  color: #42bcf6;
+  font-size: 18px;
+  text-align: left;
+}
+.table tbody td {
+  color: #a09aad;
+  font-size: 20px;
+}
+
+/* nth-child */
+.table tbody td:first-child {
+  color: #fe5d69;
+}
+.table tbody tr:nth-child(odd) {
+  background-color: #2c3346;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #252c3d;
+}
+
+/* hover */
+
+/* .table tr td{
+    transition: all 0.2s ease;
+} */
+.table tbody td:hover {
+  background-color: #fff73a;
+  color: #373612;
+  font-weight: 600;
+  box-shadow: -10px 0px #74701f;
+}
+.table tbody tr:hover {
+  background-color: #3d4147;
+}
