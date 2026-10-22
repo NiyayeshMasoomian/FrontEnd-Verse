@@ -11,6 +11,7 @@
 
 a {
   transition: all 0.3s ease-in-out;
+  color: #8f45df;
 }
 a:hover {
   color: #ff99c8;
@@ -21,7 +22,7 @@ a:active {
 .all-icons {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 40px;
 }
 .icon {
   font-size: 25px;
@@ -49,9 +50,9 @@ input {
 }
 input:focus {
   box-shadow:
-    2px 2px 10px #fcf6bd,
-    -2px -2px 10px #fcf6bd;
-  border: 1px solid #fcf6bd;
+    2px 2px 10px #efc8dd,
+    -2px -2px 10px #efc8dd;
+  border: 1px solid #efc8dd;
 }
 .background {
   background-image: linear-gradient(
@@ -70,7 +71,9 @@ input:focus {
 }
 .profile-card {
   border: 1px solid #ffffff;
-  box-shadow: 5px 5px 15px #adb5bd , -5px -5px 15px #adb5bd;
+  box-shadow:
+    5px 5px 15px #adb5bd,
+    -5px -5px 15px #adb5bd;
   background-color: #ffffff;
   width: 350px;
   display: flex;
