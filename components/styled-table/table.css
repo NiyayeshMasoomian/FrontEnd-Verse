@@ -39,15 +39,16 @@ body {
 
 /* hover */
 
-/* .table tr td{
-    transition: all 0.2s ease;
-} */
 .table tbody td:hover {
   background-color: #fff73a;
   color: #373612;
   font-weight: 600;
   box-shadow: -10px 0px #74701f;
-}
-.table tbody tr:hover {
+} 
+ .table tbody tr:hover {
   background-color: #3d4147;
+} 
+.table tbody td,
+.table tbody tr {
+  transition: all 0.2s ease;
 }
