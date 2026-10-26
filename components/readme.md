@@ -22,3 +22,7 @@ Desktop version screenshots are available in the preview folder.
 ## Purpose
 
 This section contains reusable frontend components commonly used in web interfaces. The examples focus on structure, styling, responsiveness, and modern CSS techniques while reinforcing component-based UI development.
+
+
+## Author
+Niyayesh Masoomian
