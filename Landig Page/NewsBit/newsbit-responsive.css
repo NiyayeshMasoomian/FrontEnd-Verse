@@ -321,7 +321,7 @@ footer div {
 }
 
 .footer-background {
-  background-image: url(../images/dark_tint.png), url(../images/map.png);
+  background-image: url(images/dark_tint.png), url(images/map.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -417,3 +417,4 @@ footer div {
     max-width: 1200px;
   }
 }
+/* footer */
