@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 25px 10px 25px;
+  align-items: center;
+  position: relative;
+}
+.nav-menu li a {
+  color: rgb(4, 14, 39);
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+}
+.nav-menu li a:hover {
+  color: #1ec6b6;
+}
+.nav-menu,
+.nav-icon,
+.social-media {
+  display: none;
+}
+.search {
+  background-color: rgb(255, 74, 82);
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  height: 65px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 60px;
+}
+.toggler {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  height: 64px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 30px 40px 30px 20px;
+  }
+  .phone i {
+    color: rgb(255, 74, 82);
+  }
+  .phone {
+    color: rgb(4, 14, 39);
+    font-size: 15px;
+  }
+  .toggler {
+    display: none;
+  }
+  .search {
+    right: 0;
+    height: 105px;
+    width: 80px;
+  }
+  .nav-menu {
+    display: flex;
+    gap: 40px;
+  }
+  .nav-icon {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .social-media {
+    display: flex;
+    gap: 20px;
+    color: rgb(170, 177, 183);
+    font-size: 16px;
+  }
+  .icon {
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  .icon:hover {
+    color: rgb(255, 74, 82);
+  }
+  .phone::after {
+    content: "";
+    border-right: 1px solid rgb(170, 177, 183);
+    margin: 0 10px 0 10px;
+  }
+}
+/* Navbar */
+
+/* hero-section */
+.hero-section {
+  background-image: url(image/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.hero-section h2 {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-size: clamp(40px, 10vw, 100px);
+}
+.hero-section p {
+  font-size: clamp(18px, 3vw, 20px);
+  margin-top: 10px;
+}
+.hero-section button {
+  padding: 20px 40px 20px 40px;
+  margin-top: 40px;
+  color: #ffffff;
+  background-color: #1ec6b6;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+.hero-section button:hover {
+  background-color: rgb(255, 74, 82);
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    min-height: 650px;
+  }
+}
+/* hero-section */
