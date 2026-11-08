@@ -34,9 +34,3 @@ A responsive landing page built with HTML5 and CSS3 as part of the Frontend Fund
 - Improve component-based page structure
 - Convert a non-responsive design into a responsive implementation
 
-
-
-## Preview
-
-Desktop version screenshots are available in the preview folder.
-
