@@ -17,7 +17,7 @@
   position: relative;
 }
 .nav-menu li a {
-  color: rgb(4, 14, 39);
+  color: #040e27;
   font-size: 15px;
   transition: color 0.2s ease-in-out;
 }
@@ -30,7 +30,7 @@
   display: none;
 }
 .search {
-  background-color: rgb(255, 74, 82);
+  background-color: #ff4a52;
   color: #ffffff;
   border: none;
   font-size: 16px;
@@ -60,10 +60,10 @@
     padding: 30px 40px 30px 20px;
   }
   .phone i {
-    color: rgb(255, 74, 82);
+    color: #ff4a52;
   }
   .phone {
-    color: rgb(4, 14, 39);
+    color: #040e27;
     font-size: 15px;
   }
   .toggler {
@@ -86,7 +86,7 @@
   .social-media {
     display: flex;
     gap: 20px;
-    color: rgb(170, 177, 183);
+    color: #b1b0b6;
     font-size: 16px;
   }
   .icon {
@@ -94,11 +94,11 @@
     cursor: pointer;
   }
   .icon:hover {
-    color: rgb(255, 74, 82);
+    color: #ff4a52;
   }
   .phone::after {
     content: "";
-    border-right: 1px solid rgb(170, 177, 183);
+    border-right: 3px solid #ecebeb;
     margin: 0 10px 0 10px;
   }
 }
@@ -138,11 +138,71 @@
   transition: background-color 0.2s ease-in-out;
 }
 .hero-section button:hover {
-  background-color: rgb(255, 74, 82);
+  background-color: #ff4a52;
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .hero-section {
     min-height: 650px;
   }
 }
 /* hero-section */
+
+/* <!-- where you want to go section --> */
+.place-searcher {
+  background-color: #040e27;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0 40px 0;
+}
+.place-searcher h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.place-searcher form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80vw;
+}
+.place-searcher input,
+.place-searcher select {
+  font-size: 16px;
+  font-family: inherit;
+  padding: 12px;
+  background-color: #040e27;
+  color: #a8b0b5;
+  border: 1px solid #363e52;
+  border-radius: 5px;
+  outline: none;
+}
+.place-searcher form button {
+  padding: 15px 35px 15px 35px;
+  background-color: #ff4a52;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+.place-searcher form button:hover {
+  background-color: #1ec6b6;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .place-searcher form {
+    flex-direction: row;
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .place-searcher {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+/* <!-- /where you want to go section --> */
