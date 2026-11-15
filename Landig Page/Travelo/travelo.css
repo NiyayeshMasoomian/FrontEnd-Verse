@@ -301,3 +301,36 @@
 }
 
 /* <!-- /Newsletter --> */
+/* video */
+.video-container{
+  background-image: url(image/video.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+      display: flex;
+      gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 300px;
+    padding: 0 10px 0 10px;
+}
+.video-container h3{
+    font-family: "Nothing You Could Do", cursive;
+    color: #ffffff;
+  font-weight: 400;
+  font-size: clamp(40px, 10vw, 100px);
+}
+.video-container a{
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 25px;
+  background-color: #1ec6b6;
+}
+@media (min-width: 768px) {
+    .video-container {
+        min-height: 650px;
+    }
+}
+/* /video */
